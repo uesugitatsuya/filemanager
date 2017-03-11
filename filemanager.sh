@@ -44,7 +44,7 @@ chmod 755 /usr/local/bin/rar
 
 # Installing and configuring filemanager plugin
 cd $rutorrent_path/plugins/
-svn co https://github.com/nelu/rutorrent-thirdparty-plugins/trunk/filemanager
+svn co https://github.com/uesugitatsuya/filemanager/trunk/filemanager
 
 cat > $rutorrent_path/plugins/filemanager/conf.php << EOF
 <?php
